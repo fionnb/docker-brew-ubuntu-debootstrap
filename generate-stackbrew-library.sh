@@ -14,9 +14,9 @@ noVersion=(
 
 versions=( */ )
 versions=( "${versions[@]%/}" )
-url='git://github.com/tianon/docker-brew-ubuntu-debootstrap'
+url='git://github.com/fionnb/docker-brew-ubuntu-debootstrap'
 
-echo '# maintainer: Tianon Gravi <tianon@debian.org> (@tianon)'
+echo '# author: Tianon Gravi <tianon@debian.org> (@tianon)'
 
 commitRange='master..dist'
 commitCount="$(git rev-list "$commitRange" --count 2>/dev/null || true)"
